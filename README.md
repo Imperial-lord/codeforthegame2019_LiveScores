@@ -6,9 +6,9 @@
 This application is dedicated to providing live scores, fixtures, news and other stuffs regarding the Cricket World Cup 2019.
 And guess what! We have a trivia section added for an awesome user experience!
 
-Here is a screenshot of the application(as at present):
+Here is a collage of the application :
 
-![Image of main screen](https://github.com/anjalisoni3655/codeforthegame2019_LiveScores/blob/master/Screenshots/Screenshot_20190620-175634.png)
+![Image of main screen](https://github.com/anjalisoni3655/codeforthegame2019_LiveScores/blob/master/Screenshots/collage.png)
 
 
 <h3>PRESENT STATE</h3>
@@ -18,7 +18,7 @@ This app is currently under development and is expected to be complete by 7th Ju
 <h3>ISSUES/BUGS</h3>
 
 As of present we have not encountered any such major issues with the application.</br>
-ISSUE 1: However the screen in the WebView of the news section is has a slightly distorted top bar(resolved)
+ISSUE 1: However the screen in the WebView of the news section has a slightly distorted top bar(resolved)
 
 
 <h3>DOCUMENTATION</h3>
