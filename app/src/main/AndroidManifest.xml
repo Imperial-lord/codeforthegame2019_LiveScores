@@ -65,7 +65,7 @@
             android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.PointsTable"
-            android:label="Points Table"
+            android:label="Leader Board"
             android:theme="@style/PointsTable"
             android:configChanges="orientation|screenSize"/>
         <activity android:name=".NewsExplore"
