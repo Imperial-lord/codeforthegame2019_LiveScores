@@ -10,54 +10,75 @@
         android:label="ICC WC 2019"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name="com.news.abhishek.newsapp.playvideo"
-            android:label="ICC WC 2019 ThemeSong"></activity>
-        <activity android:name="com.news.abhishek.newsapp.About_dev" />
-        <activity android:name="com.news.abhishek.newsapp.About_app" />
-        <activity android:name="com.news.abhishek.newsapp.ScoreDisplay" />
+            android:label="ICC WC 2019 ThemeSong"
+            android:configChanges="orientation|screenSize"></activity>
+
+        <activity android:name="com.news.abhishek.newsapp.About_dev"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.news.abhishek.newsapp.About_app"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.news.abhishek.newsapp.ScoreDisplay"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Question5"
-            android:label="Question5" />
+            android:label="Question5"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Question4"
-            android:label="Question4" />
+            android:label="Question4"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Question3"
-            android:label="Question3" />
+            android:label="Question3"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Question2"
-            android:label="Question2" />
+            android:label="Question2"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Question1"
-            android:label="Question1" />
+            android:label="Question1"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Main6Activity"
-            android:label="Quiz Answers" />
+            android:label="Quiz Answers"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Main5Activity"
             android:label="Quiz"
-            android:theme="@style/Quiz"/>
-        <activity android:name="com.news.abhishek.newsapp.Webview" />
-        <activity android:name="com.news.abhishek.newsapp.Pageofoptions" />
+            android:theme="@style/Quiz"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.news.abhishek.newsapp.Webview"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.news.abhishek.newsapp.Pageofoptions"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Main4Activity"
-            android:label="Favorites" />
+            android:label="Favorites"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.Main3Activity"
             android:label="Scorecards"
-            android:theme="@style/ScoreCards" />
+            android:theme="@style/ScoreCards"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name="com.news.abhishek.newsapp.PointsTable"
             android:label="Points Table"
-            android:theme="@style/PointsTable" />
-        <activity android:name=".NewsExplore" />
+            android:theme="@style/PointsTable"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".NewsExplore"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name=".Main2Activity"
             android:label="News"
+            android:configChanges="orientation|screenSize"
             />
         <activity
             android:name=".SplashScreen"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -66,8 +87,10 @@
         </activity>
         <activity
             android:name=".FixturesActivity"
-            android:label="Fixtures WC 2019" />
-        <activity android:name=".MainActivity" />
+            android:label="Fixtures WC 2019"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"/>
     </application>
 
 </manifest>
