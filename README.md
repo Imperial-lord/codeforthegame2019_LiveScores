@@ -8,17 +8,24 @@ And guess what! We have a trivia section added for an awesome user experience!
 
 Here is a collage of the application :
 
-![Image of main screen](https://github.com/anjalisoni3655/codeforthegame2019_LiveScores/blob/master/Screenshots/collage.jpg)
+![Collage](https://github.com/anjalisoni3655/codeforthegame2019_LiveScores/blob/master/screenshots/collage.jpg)
 
 
 <h3>PRESENT STATE</h3>
 
-This app is currently under development and is expected to be complete by 7th July 2019.
+This app is complete. We, as developers, are happy to have worked on an awesome project. 
+
+<h3>USER'S EASE OF ACCESS</h3>
+
+We have uploaded a lot of screenshots, showing each part of the app. Also, there is a video, demonstrating the whole application run on an Android(8.1) device.
+(Video credits : Anjali Soni)
 
 <h3>ISSUES/BUGS</h3>
 
 As of present we have not encountered any such major issues with the application.</br>
 ISSUE 1: However the screen in the WebView of the news section has a slightly distorted top bar(resolved)
+ISSUE 2: The quiz pages are forced to be in potrait mode, in order to not distort the card-view(unresolved)
+ISSUE 3: The country selection in the fav team section, doesn't take any default value in the spninner, it expects the user to select a value before he/she proceeds further(unresolved)
 
 
 <h3>DOCUMENTATION</h3>
@@ -29,6 +36,11 @@ https://material.io/design/introduction/<br/>
 https://developer.android.com/guide/topics/ui/declaring-layout<br/>
 https://developer.android.com/reference/android/view/View<br/>
 https://newsapi.org/<br/>
+
+
+<h3>ACKNOWLEDGEMENTS</h3>
+
+The app uses web pages from ICC Official Site which is a copyright of ICC, as well as those of ESPN Cric-Info through NewsAPI. We acknowledge that information is being collected from these sites and believe them to be accurate.
 
 
 <h3>Developers</h3>
