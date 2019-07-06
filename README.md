@@ -8,7 +8,7 @@ And guess what! We have a trivia section added for an awesome user experience!
 
 Here is a collage of the application :
 
-![Image of main screen](https://github.com/anjalisoni3655/codeforthegame2019_LiveScores/blob/master/Screenshots/collage.png)
+![Image of main screen](https://github.com/anjalisoni3655/codeforthegame2019_LiveScores/blob/master/Screenshots/collage.jpg)
 
 
 <h3>PRESENT STATE</h3>
