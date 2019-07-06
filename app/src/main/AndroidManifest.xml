@@ -24,23 +24,23 @@
         <activity
             android:name="com.news.abhishek.newsapp.Question5"
             android:label="Question5"
-            android:configChanges="orientation|screenSize"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.news.abhishek.newsapp.Question4"
             android:label="Question4"
-            android:configChanges="orientation|screenSize"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.news.abhishek.newsapp.Question3"
             android:label="Question3"
-            android:configChanges="orientation|screenSize"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.news.abhishek.newsapp.Question2"
             android:label="Question2"
-            android:configChanges="orientation|screenSize"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.news.abhishek.newsapp.Question1"
             android:label="Question1"
-            android:configChanges="orientation|screenSize"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.news.abhishek.newsapp.Main6Activity"
             android:label="Quiz Answers"
