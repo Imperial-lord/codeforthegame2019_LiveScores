@@ -33,5 +33,5 @@ https://newsapi.org/<br/>
 
 <h3>Developers</h3>
 
-Anjali Soni, ECE, IIT Guwahati<br/>
+Anjalika Soni, ECE, IIT Guwahati<br/>
 AB Satyaprakash, MnC, IIT Guwahati
