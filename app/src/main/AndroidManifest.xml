@@ -48,7 +48,6 @@
         <activity
             android:name="com.news.abhishek.newsapp.Main5Activity"
             android:label="Quiz"
-            android:theme="@style/Quiz"
             android:configChanges="orientation|screenSize"/>
         <activity android:name="com.news.abhishek.newsapp.Webview"
             android:configChanges="orientation|screenSize"/>
