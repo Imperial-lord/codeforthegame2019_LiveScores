@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aboutapp"
+        android:title="About App"
+        android:icon="@drawable/about">
+
+    </item>
+
+    <item
+        android:id="@+id/aboutdevelopers"
+        android:title="About Developers"
+        android:icon="@drawable/developers">
+
+    </item>
+    <item
+        android:id="@+id/playvideo"
+        android:title=" WC2019 ThemeSong"
+        android:icon="@drawable/ic_play_circle_filled_black_24dp">
+
+    </item>
+
+
+</menu>
