@@ -8,12 +8,50 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:srcCompat="@drawable/wc2019"
         android:scaleType="fitXY"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/butmain"
+        android:padding="8dp"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:inputType="text"
+            android:typeface="monospace"
+            android:backgroundTint="#fff"
+            android:hint="Enter match number"
+            android:fontFamily="monospace"
+            android:textColorHint="#fff"
+            android:id="@+id/entermat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:gravity="center"
+        android:background="#1A237E"
+        android:fontFamily="monospace"
+        android:textColor="#fff"
+        android:onClick="gotomat"/>
+
+    </LinearLayout>
+
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,6 +61,8 @@
         android:fadeScrollbars="true"
         android:scrollbarThumbVertical="@android:color/white"
         android:scrollbarSize="5dp"
+        android:id="@+id/sv"
+        android:layout_below="@+id/butmain"
         >
 
         <LinearLayout
@@ -35,6 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat1"
                 android:padding="8dp">
 
                 <ImageView
@@ -144,6 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat2"
                 android:padding="8dp">
 
                 <ImageView
@@ -274,6 +316,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat3"
                 android:padding="8dp">
 
                 <ImageView
@@ -385,6 +428,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat4"
                 android:padding="8dp">
 
 
@@ -508,6 +552,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat5"
                 android:padding="8dp">
 
                 <ImageView
@@ -626,6 +671,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat6"
                 android:padding="8dp">
 
 
@@ -747,6 +793,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat7"
                 android:padding="8dp">
 
 
@@ -863,6 +910,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat8"
                 android:padding="8dp">
                 <ImageView
                     android:layout_width="0dp"
@@ -978,6 +1026,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat9"
                 android:padding="8dp">
 
 
@@ -1101,6 +1150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat10"
                 android:padding="8dp">
 
 
@@ -1220,6 +1270,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat11"
                 android:padding="8dp">
 
                 <ImageView
@@ -1332,6 +1383,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat12"
                 android:padding="8dp">
 
                 <ImageView
@@ -1442,6 +1494,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat13"
                 android:padding="8dp">
 
 
@@ -1566,6 +1619,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat14"
                 android:padding="8dp">
 
                 <ImageView
@@ -1677,6 +1731,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat15"
                 android:padding="8dp">
 
                 <ImageView
@@ -1789,6 +1844,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat16"
                 android:padding="8dp">
 
                 <ImageView
@@ -1903,6 +1959,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat17"
                 android:padding="8dp">
 
                 <ImageView
@@ -2016,6 +2073,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat18"
                 android:padding="8dp">
 
                 <ImageView
@@ -2131,6 +2189,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat19"
                 android:padding="8dp">
 
                 <ImageView
@@ -2248,6 +2307,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat20"
                 android:padding="8dp">
 
                 <ImageView
@@ -2369,6 +2429,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat21"
                 android:padding="8dp">
 
                 <ImageView
@@ -2487,6 +2548,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat22"
                 android:padding="8dp">
 
                 <ImageView
@@ -2605,6 +2667,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat23"
                 android:padding="8dp">
 
                 <ImageView
@@ -2724,6 +2787,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat24"
                 android:padding="8dp">
 
                 <ImageView
@@ -2843,6 +2907,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat25"
                 android:padding="8dp">
 
                 <ImageView
@@ -2962,7 +3027,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="8dp">
+                android:padding="8dp"
+                android:id="@+id/mat26">
 
                 <ImageView
                     android:layout_width="0dp"
@@ -3079,6 +3145,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat27"
                 android:padding="8dp">
 
                 <ImageView
@@ -3198,6 +3265,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat28"
                 android:padding="8dp">
 
                 <ImageView
@@ -3317,6 +3385,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat29"
                 android:padding="8dp">
 
                 <ImageView
@@ -3436,6 +3505,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat30"
                 android:padding="8dp">
 
                 <ImageView
@@ -3554,6 +3624,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat31"
                 android:padding="8dp">
 
                 <ImageView
@@ -3673,6 +3744,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat32"
                 android:padding="8dp">
 
                 <ImageView
@@ -3795,6 +3867,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat33"
                 android:padding="8dp">
 
                 <ImageView
@@ -3916,6 +3989,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat34"
                 android:padding="8dp">
 
                 <ImageView
@@ -4034,6 +4108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat35"
                 android:padding="8dp">
 
                 <ImageView
@@ -4153,6 +4228,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat36"
                 android:padding="8dp">
 
                 <ImageView
@@ -4272,6 +4348,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat37"
                 android:padding="8dp">
 
                 <ImageView
@@ -4392,6 +4469,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat38"
                 android:padding="8dp">
 
                 <ImageView
@@ -4507,6 +4585,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat39"
                 android:padding="8dp">
 
                 <ImageView
@@ -4629,6 +4708,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat40"
                 android:padding="8dp">
 
                 <ImageView
@@ -4748,6 +4828,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat41"
                 android:padding="8dp">
 
                 <ImageView
@@ -4867,6 +4948,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat42"
                 android:padding="8dp">
 
                 <ImageView
@@ -4983,6 +5065,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat43"
                 android:padding="8dp">
 
                 <ImageView
@@ -5098,6 +5181,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat44"
                 android:padding="8dp">
 
                 <ImageView
@@ -5212,6 +5296,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:id="@+id/mat45"
                 android:padding="8dp">
 
                 <ImageView
