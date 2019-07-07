@@ -25,7 +25,7 @@ We have uploaded a lot of screenshots, showing each part of the app. Also, there
 As of present we have not encountered any such major issues with the application.</br>
 ISSUE 1: However the screen in the WebView of the news section has a slightly distorted top bar(resolved)</br>
 ISSUE 2: The quiz pages are forced to be in potrait mode, in order to not distort the card-view(unresolved)</br>
-ISSUE 3: The country selection in the fav team section, doesn't take any default value in the spninner, it expects the user to select a value before he/she proceeds further(unresolved)
+ISSUE 3: The country selection in the favourite team section, doesn't take any default value in the spinner, it expects the user to select a value before he/she proceeds further(unresolved)
 
 
 <h3>DOCUMENTATION</h3>
